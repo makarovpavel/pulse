@@ -1,0 +1,36 @@
+.review {
+    &__item {
+        display: flex;
+        padding: 63px 0 47px 0;
+    }
+    &__img {
+        width: 169px;
+        height: 169px;
+        border-radius: 50%;
+        margin-right: 60px;
+        /* background: url(../../img/feedback1.jpg) center (center/cover) no-repeat; */
+        object-fit: cover;
+    }
+    &__text {
+        color: #0d0d0d;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 19px;
+    }
+    &__title {
+        font-weight: 700;
+        font-size: 18px;
+        padding-bottom: 8px;
+    }
+    &__achieve {
+        font-size: 14px;
+        color: #646464;
+        padding-bottom: 16px;
+    }
+    hr {
+        height: 1px;
+        background-color: #f6f6f6;
+        margin: 0;
+        border-bottom: none;
+    }
+}
